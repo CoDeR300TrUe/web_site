@@ -17,6 +17,7 @@ export default function Home() {
         </p>
         <p><code>index.js</code></p>
         <h2>Это мой первый сайт, который находится в интернете:)</h2>
+        <p>проверка связи</p>
       </main>
 
       <Footer />
