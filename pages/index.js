@@ -15,6 +15,7 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <p>это мой первый сайт, который находится в интернете</p>
       </main>
 
       <Footer />
