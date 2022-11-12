@@ -1,37 +1,118 @@
-html,
+h1, h2, body, p {
+  margin: 0px;
+}
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 50000px;
 }
 
-* {
-  box-sizing: border-box;
+header {
+  height: 100px;
+  background-color: #333;
+  color: #eee;
+  padding: 10px 10px;
+  opacity: 45%;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  transition: all 0.5s;
+  text-align: center;
+  
+}
+
+header:hover{
+  height: 220px;
+  opacity: 100%;
+  
+}
+header:hover h1 {
+  
+  padding: 50px 10px ;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #eee;
+  padding: 2px 10px;
+  border-radius: 20px;
+  background-color: #000;
+  border: 2px solid #ddd;
+  /* margin: 10px; */
+  transition: all, 0.5s;
+}
+
+a img {
+  width: 20px;
+  padding: 10px;
+  vertical-align: middle;
+  
+}
+.iconup:hover {
+  border-color: yellow;
+  transition: border-color, 0.5s;
+}
+
+.iconup:active {
+  transform: translateY(-10px);
 }
 
 main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  padding: 50px 0px 100px 0px;
+  color: #333;
+  background-color: #ddd;
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+h2, article {
+  text-align: center;
 }
 
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.planet {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+  transition: all 0.5s;
 }
 
+.planet:active {
+  transform: scale(1.5);
+}
+.planet img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
 
+.planet p {
+  background-color: white;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+.socicon{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: inline-block;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.vk:hover {
+  background-color: #2b5297;
+}
+.yt:hover {
+  background-color: #c30000;
+}
+.tg:hover {
+  background-color: #0088cc;
+}
+.snpcht:hover {
+  background-color: #fdfd03;
+}
