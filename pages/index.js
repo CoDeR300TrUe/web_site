@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Космос</title>
-        <link rel="icon" href="/favicon.png" />
+        <title>Next.js Starter!</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
     <body>
       <header>
